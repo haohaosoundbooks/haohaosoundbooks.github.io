@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>昊昊听书APP官方版 | 免费无广告听书神器 - 支持文本同步与批量下载</title>
+  <meta name="description" content="昊昊听书APP官方版v3.7：全新免费手机听书神器，海量小说、文学、儿童、恐怖、相声等资源，支持文本同步、语音搜索、批量下载、自动连播、断点续播，无广告无插件，界面简洁，更新快，畅享高质量有声阅读体验！" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+  <!-- ================== Navbar ================== -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-blue-600">昊昊听书</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="#features" class="hover:text-blue-600 transition">核心功能</a>
+        <a href="#screenshots" class="hover:text-blue-600 transition">界面预览</a>
+        <a href="#requirements" class="hover:text-blue-600 transition">系统要求</a>
+        <a href="#faq" class="hover:text-blue-600 transition">常见问题</a>
+      </div>
+      <button class="md:hidden focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ================== Hero ================== -->
+  <header class="relative isolate flex items-center justify-center h-[80vh] overflow-hidden bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900">
+    <div class="relative z-10 text-center max-w-2xl mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg">昊昊听书</h1>
+      <p class="mt-6 text-xl md:text-2xl text-gray-200">免费无广告 · 海量资源 · 文本同步 · 批量下载 · 自动连播</p>
+      <div class="mt-8 flex justify-center">
+        <a href="https://sbook.pages.dev" class="px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white font-semibold shadow-lg transition text-lg">
+          <i data-lucide="download" class="inline-block w-5 h-5 mr-2"></i>立即下载APP
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================== Features ================== -->
+  <section id="features" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">核心功能</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="book-open" class="w-10 h-10 text-blue-600"></i>
+          <h3 class="text-xl font-semibold mt-4">海量书籍 · 分类齐全</h3>
+          <p class="mt-2">涵盖小说、传记、历史、哲学、儿童、恐怖、相声戏曲等，资源丰富，分类清晰。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="refresh-ccw" class="w-10 h-10 text-emerald-600"></i>
+          <h3 class="text-xl font-semibold mt-4">实时更新 · 永不落伍</h3>
+          <p class="mt-2">专业团队每日更新最新最热作品，保证不错过任何精彩内容。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="headphones" class="w-10 h-10 text-rose-600"></i>
+          <h3 class="text-xl font-semibold mt-4">流畅播放 · 自动连播</h3>
+          <p class="mt-2">无广告无插件，播放流畅，支持自动连播和断点续播，体验更佳。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="mic" class="w-10 h-10 text-purple-600"></i>
+          <h3 class="text-xl font-semibold mt-4">语音搜索 · 快速找书</h3>
+          <p class="mt-2">创新语音搜索技术，快速准确找到感兴趣的作者或作品。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="download-cloud" class="w-10 h-10 text-yellow-600"></i>
+          <h3 class="text-xl font-semibold mt-4">离线收听 · 批量下载</h3>
+          <p class="mt-2">支持分段下载和批量下载，离线收听更方便，随时随地畅听。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="align-center" class="w-10 h-10 text-teal-600"></i>
+          <h3 class="text-xl font-semibold mt-4">文本同步 · 边听边看</h3>
+          <p class="mt-2">支持收听时同步显示文本内容，边听边看更沉浸。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="clock" class="w-10 h-10 text-indigo-600"></i>
+          <h3 class="text-xl font-semibold mt-4">定时听书 · 选集播放</h3>
+          <p class="mt-2">可设置定时关闭，支持选集播放，灵活掌控听书时间。</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-8">
+          <i data-lucide="history" class="w-10 h-10 text-pink-600"></i>
+          <h3 class="text-xl font-semibold mt-4">收听历史 · 断点续播</h3>
+          <p class="mt-2">自动记录收听历史，支持断点续播，查找和继续收听更便捷。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Screenshots ================== -->
+  <section id="screenshots" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">界面预览</h2>
+      <div class="flex justify-center">
+        <img src="https://www.haitangw.cc/wp-content/uploads/2025/03/1741930704710-1024x1024.png" class="rounded-xl shadow-lg max-w-md" alt="昊昊听书APP界面截图" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== FAQ ================== -->
+  <section id="faq" class="py-16">
+    <div class="container mx-auto px-4 max-w-2xl">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">常见问题</h2>
+      <div class="space-y-4">
+        <details class="group bg-white rounded-2xl shadow p-6">
+          <summary class="font-medium cursor-pointer flex items-center justify-between">昊昊听书APP是免费的吗？有广告吗？
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform group-open:rotate-180"></i>
+          </summary>
+          <p class="mt-4 text-sm leading-relaxed">完全免费，无广告无插件，无需登录、不用升级，所有资源随心畅听。</p>
+        </details>
+        <details class="group bg-white rounded-2xl shadow p-6">
+          <summary class="font-medium cursor-pointer flex items-center justify-between">支持哪些类型的书籍和内容？
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform group-open:rotate-180"></i>
+          </summary>
+          <p class="mt-4 text-sm leading-relaxed">涵盖网络小说、传统文学、儿童读物、恐怖故事、相声戏曲等，分类齐全，资源丰富。</p>
+        </details>
+        <details class="group bg-white rounded-2xl shadow p-6">
+          <summary class="font-medium cursor-pointer flex items-center justify-between">可以离线收听和批量下载吗？
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform group-open:rotate-180"></i>
+          </summary>
+          <p class="mt-4 text-sm leading-relaxed">支持分段和批量下载，离线收听，随时随地畅听喜欢的内容。</p>
+        </details>
+        <details class="group bg-white rounded-2xl shadow p-6">
+          <summary class="font-medium cursor-pointer flex items-center justify-between">有文本同步和语音搜索功能吗？
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform group-open:rotate-180"></i>
+          </summary>
+          <p class="mt-4 text-sm leading-relaxed">支持文本同步，边听边看更沉浸。创新语音搜索技术，快速找到想听的内容。</p>
+        </details>
+        <details class="group bg-white rounded-2xl shadow p-6">
+          <summary class="font-medium cursor-pointer flex items-center justify-between">支持断点续播和自动连播吗？
+            <i data-lucide="chevron-down" class="w-5 h-5 transition-transform group-open:rotate-180"></i>
+          </summary>
+          <p class="mt-4 text-sm leading-relaxed">支持自动连播和断点续播，收听历史自动记录，体验更便捷。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== Call to Action ================== -->
+  <section class="bg-gradient-to-r from-blue-600 to-indigo-600 py-16 text-white text-center">
+    <h2 class="text-3xl md:text-4xl font-bold">立即下载昊昊听书，畅享高质量有声阅读</h2>
+    <p class="mt-4">免费无广告 · 文本同步 · 批量下载 · 自动连播 · 随时随地听好书</p>
+    <div class="mt-8 flex justify-center">
+      <a href="https://sbook.pages.dev" class="px-8 py-4 rounded-2xl bg-white/20 hover:bg-white/30 font-semibold shadow-lg transition text-lg">
+        <i data-lucide="download" class="inline-block w-5 h-5 mr-2"></i>立即下载APP
+      </a>
+    </div>
+  </section>
+
+  <!-- ================== Footer ================== -->
+  <footer class="bg-gray-900 text-gray-400 py-10">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+      <p class="text-sm">© 2025 昊昊听书. 保留所有权利。</p>
+      <div class="flex gap-4 text-xl">
+        <a href="#" aria-label="Telegram" class="hover:text-white"><i data-lucide="send"></i></a>
+        <a href="#" aria-label="GitHub" class="hover:text-white"><i data-lucide="github"></i></a>
+        <a href="#" aria-label="Mail" class="hover:text-white"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 初始化 Lucide 图标
+    lucide.createIcons();
+  </script>
+</body>
+</html>
